@@ -20,8 +20,8 @@ static const sf::Color CHK_COLOR(220,  50,  50, 180);   // king in check
 // ============================================================
 Board::Board()
 {
-    // Clear grid
-    for (int r = 0; r < 8; r++)
+    // clear grid
+    for (int r = 0 ; r < 8 ; r++)
         for (int c = 0; c < 8; c++)
             grid[r][c] = nullptr;
 
